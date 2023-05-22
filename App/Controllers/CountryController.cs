@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class CountryController : ControllerBase
     {

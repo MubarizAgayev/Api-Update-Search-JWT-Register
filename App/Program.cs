@@ -39,7 +39,7 @@ builder.Services.AddScoped<ICityRepository, CityRepository>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<ICityService, CityService>();
-builder.Services.AddScoped<ICountryService,ICountryService>();
+builder.Services.AddScoped<ICountryService,CountryService>();
 
 
 
